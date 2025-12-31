@@ -10,6 +10,10 @@
   --color-secondary: var(--secondary);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body,
 .MuiTypography-root,
 .roboto {
@@ -29,4 +33,24 @@ body,
 ::-webkit-scrollbar-thumb {
   border-radius: 20px !important;
   background-color: var(--color-secondary);
+}
+
+.PhotoView-Slider__Backdrop{
+  background-color: #000000CC !important;
+}
+
+.PhotoView-Slider__toolbarIcon{
+  fill: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 35px !important;
+  height: 35px !important;
+  padding: 6px !important;
+  position: absolute;
+  top: 12;
+  right: 12;
+}
+
+.PhotoView-Slider__Counter{
+  visibility: hidden !important;
 }

@@ -1,15 +1,19 @@
-import About from './About'
-import ChatbotSection from './ChatbotSection'
 import HomeBanner from './HomeBanner'
-import Testimonial from './Testimonial'
+import About from './About'
+import Agency from './Agency'
+import AIWorkSamples from './AIWorkSamples'
+import ClientReviews from './ClientReviews'
+import WhyAIChatbot from './WhyAIChatbot'
 
 const Home = () => {
     return (
         <>
             <HomeBanner />
             <About />
-            <Testimonial />
-            <ChatbotSection />
+            <Agency />
+            <AIWorkSamples />
+            <ClientReviews />
+            <WhyAIChatbot />
         </>
     )
 }

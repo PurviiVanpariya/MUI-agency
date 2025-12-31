@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
 
-import Header from "@/src/views/layout/Header";
+import Header from "@/src/views/home/Header";
 import Home from "@/src/views/home";
-import Footer from "@/src/views/layout/Footer";
+import HireUs from "@/src/views/home/HireUs";
 
 export default function HomePage() {
 
@@ -10,7 +10,7 @@ export default function HomePage() {
     <Box className="relative">
       <Header />
       <Home />
-      <Footer />
+      <HireUs />
     </Box>
   );
 }

@@ -8,23 +8,23 @@ const Copyright = () => {
         <Box className='pt-28 pb-16'>
             <Box className='flex items-center justify-between'>
                 <Box className="flex items-center gap-4">
-                    <Box className="hover:bg-[#4267B2] rounded-full p-1.5 cursor-pointer">
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
                         <ImFacebook className="size-4.5 text-white" />
                     </Box>
-                    <Box className="hover:bg-[#1DA1F2] rounded-full p-1.5 cursor-pointer">
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
                         <FaXTwitter className="size-4.5 text-white" />
                     </Box>
-                    <Box className="hover:bg-[#0077B5] rounded-full p-1.5 cursor-pointer">
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
+                        <FaGooglePlusG className="size-6 text-white" />
+                    </Box>
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
                         <ImLinkedin2 className="size-4.5 text-white" />
                     </Box>
-                    <Box className="hover:bg-[#0077B5] rounded-full p-1.5 cursor-pointer">
-                        <FaGooglePlusG className="size-4.5 text-white" />
-                    </Box>
-                    <Box className="hover:bg-[#0077B5] rounded-full p-1.5 cursor-pointer">
-                        <FaPinterestP className="size-4.5 text-white" />
-                    </Box>
-                    <Box className="hover:bg-[#4267B2] rounded-full p-1.5 cursor-pointer" sx={{ ":hover": { background: "linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%) !important" } }}>
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
                         <FaInstagram className="size-4.5 text-white" />
+                    </Box>
+                    <Box className="hover:bg-[#3089ED] transition duration-300 rounded-full p-3 cursor-pointer">
+                        <FaPinterestP className="size-4.5 text-white" />
                     </Box>
                 </Box>
                 <Box>

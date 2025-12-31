@@ -3,14 +3,15 @@ import Image from 'next/image'
 import { Box, Typography } from '@mui/material'
 
 import Button from '@/src/components/button'
+import whyAIChatbotPng from '@/src/assets/images/whyAIChatbot.png'
 
-const ChatbotSection = () => {
+const WhyAIChatbot = () => {
     return (
-        <Box className='py-28'>
+        <Box id="whyAIChatbots" className='py-60'>
             <Box className='max-w-[1250px] mx-auto px-4'>
                 <Box className='grid grid-cols-2 gap-4'>
                     <Box>
-                        <Image src="/chatbot.png" alt="chatbot" width={540} height={462} />
+                        <Image src={whyAIChatbotPng} alt="whyAIChatbot" width={540} height={462} />
                     </Box>
                     <Box className='space-y-5'>
                         <Box className='flex items-center gap-2'>
@@ -27,4 +28,4 @@ const ChatbotSection = () => {
     )
 }
 
-export default ChatbotSection
+export default WhyAIChatbot

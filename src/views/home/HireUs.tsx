@@ -4,7 +4,7 @@ import { IoCallOutline } from 'react-icons/io5'
 import { MdOutlineLocationOn } from 'react-icons/md'
 
 import Button from '@/src/components/button'
-import Copyright from '../home/Copyright'
+import Copyright from './Copyright'
 
 const fields = [
   {
@@ -27,10 +27,10 @@ const fields = [
   },
 ]
 
-const Footer = () => {
+const HireUs = () => {
   return (
     <>
-      <Box className="bg-[url('/footer.png')] bg-cover bg-center bg-no-repeat w-full roboto!" component="footer">
+      <Box id="hireUs" className="bg-[url('/hireUsBg.png')] bg-cover bg-center bg-no-repeat w-full roboto!" component="footer">
         <Box className='max-w-[1250px] mx-auto px-4'>
           <Box className="grid md:grid-cols-2 py-30">
             <Box>
@@ -96,4 +96,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default HireUs
